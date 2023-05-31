@@ -142,7 +142,7 @@ struct ContentView: View {
             }
         }
         .padding()
-        .sheet(isPresented: $showScreen){
+        .sheet(isPresented: $showScreen){ 
             if(answerWasCorrect){
                 Text("Correct!")
             }
